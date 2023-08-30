@@ -9,7 +9,7 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-export const logo = './Great.png';
+export const logo = './GT.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
