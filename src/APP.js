@@ -19,16 +19,5 @@ const App = () => (
     </Box>
   </BrowserRouter>
 );
-const reqBody = {
-  username: "Norbert",
-  password: "asdfasdf",
-  };
 
-  fetch("api/auth/login", {
-    headers: {
-      "Content-Type": "application/json",
-    },
-    method: "post",
-    body: JSON.stringify(reqBody)
-    })
 export default App;
